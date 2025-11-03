@@ -1,0 +1,6 @@
+numClientes=3
+msjsPorCliente=10
+numFiltros=2
+numServidores=2
+capacidadEntrada=5
+capacidadEntrega=10
