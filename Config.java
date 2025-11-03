@@ -11,7 +11,6 @@ public class Config {
     private int capacidadEntrada;
     private int capacidadEntrega;
 
-    // Getters públicos
     public int getNumClientes() { return numClientes; }
     public int getMsjsPorCliente() { return msjsPorCliente; }
     public int getNumFiltros() { return numFiltros; }
