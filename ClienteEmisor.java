@@ -7,9 +7,19 @@ public class ClienteEmisor extends Thread {
     private int numMsjs;
     
     public ClienteEmisor(String name, BuzonEntrada buzonEntrada, int numMsjs) {
-        this.name = name;
+        super(name);
         this.buzonEntrada = buzonEntrada;
         this.numMsjs = numMsjs;
+    }
+
+    @Override
+    public void run(){
+
+    }
+
+    public Mensaje generarMsj(){
+        Mensaje msj = new Mensaje();
+        return msj;
     }
 
 }

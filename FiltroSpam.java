@@ -10,7 +10,7 @@ public class FiltroSpam extends Thread {
 
 
     public FiltroSpam(String name, BuzonEntrada buzonEntrada, BuzonEntrega buzonEntrega, BuzonCuarentena buzonCuarentena, int numClientes) {
-        this.name = name;
+        super(name);
         this.buzonEntrada = buzonEntrada;
         this.buzonEntrega = buzonEntrega;
         this.buzonCuarentena = buzonCuarentena;

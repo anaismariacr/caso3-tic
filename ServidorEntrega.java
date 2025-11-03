@@ -6,7 +6,7 @@ public class ServidorEntrega extends Thread {
     private static BuzonEntrega buzonEntrega;
     
     public ServidorEntrega(String name, BuzonEntrega buzonEntrega) {
-        this.name = name;
+        super(name);
         this.buzonEntrega = buzonEntrega;
     }
 }
